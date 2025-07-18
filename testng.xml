@@ -1,22 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Suite" parallel="false">
+<suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="com.orangehrm.tests.MeasureUnitTest"/>
-      <class name="com.orangehrm.tests.LoginTest"/>
-      <class name="com.orangehrm.tests.AuthoritiesTest"/>
-    <!--  <class name="com.orangehrm.tests.RiverUnitTest"/> -->
-      <class name="com.orangehrm.tests.UnitUseTest"/>
-      <class name="com.orangehrm.tests.JobsTest"/>
-      <class name="com.orangehrm.tests.CountriesTest"/>
-      <class name="com.orangehrm.tests.DocumentsTest"/>
-      <class name="com.orangehrm.tests.UnitNatureTest"/>
-      <class name="com.orangehrm.tests.TechnicalEstimateTest"/>
-      <class name="com.orangehrm.tests.MotorStateTest"/>
-      <class name="com.orangehrm.tests.CitiesTest"/>
-      <class name="com.orangehrm.tests.HomeTest"/>
- 	 <!-- <class name="com.orangehrm.tests.RegionsTest"/>  -->
+      <class name="com.orangehrm.tests.AdminTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -136,6 +136,7 @@ public class BaseTest {
         basePage.setDriver(driver);
         setWebDriver();
         loginPage = new LoginPage();
+        
     }
 
     @AfterMethod
