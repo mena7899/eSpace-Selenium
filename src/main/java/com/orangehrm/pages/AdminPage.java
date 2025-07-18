@@ -20,7 +20,7 @@ public class AdminPage extends BasePage {
 		
 		
 		///////////////////////////////////////////////////////////////////////////////////////////
-		//add country methods
+		
 		public void setSearchText(String search_text) {
 			
 			JavaScriptUtility.setJS(user_name_search_input,search_text);

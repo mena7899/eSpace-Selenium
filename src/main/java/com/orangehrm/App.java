@@ -28,41 +28,41 @@ public class App extends BasePage{
     public static void main( String[] args ) throws IOException, InterruptedException
     {
     	
-    	WebDriver driver;
-    	driver = new ChromeDriver();
-    	
-    	driver.manage().window().maximize();
-    	String url = "https://opensource-demo.orangehrmlive.com";
-    	driver.get(url);
-    	//System.out.println( "Hell o' World!app" );
-    	//enter name
-    	Thread.sleep(3000);
-    	driver.findElement(By.cssSelector("input[name='username']")).sendKeys("Admin");
-    	//enter password
-    	driver.findElement(By.cssSelector("input[name='password']")).sendKeys("admin123");
-    	Thread.sleep(3000);
-    	//click login button
-    	driver.findElement(By.cssSelector("button[type='submit']")).click();
-    	Thread.sleep(3000);
-    	//click licenses
-    	driver.findElement(By.cssSelector("a[href='/web/index.php/admin/viewAdminModule']")).click();
-    	Thread.sleep(3000);
-    	driver.findElement(By.cssSelector("div[class='oxd-table-filter-area'] input[class='oxd-input oxd-input--active']")).sendKeys("admin");
-     	Thread.sleep(3000);
-     	driver.findElement(By.cssSelector("button[type='submit']")).click();
-     	Thread.sleep(3000);
-     	System.out.println(driver.findElements(By.cssSelector("div[class='oxd-table-body'] div[role='row']")).size());
-     	Thread.sleep(3000);
-     	System.out.println(driver.findElement(By.cssSelector("div[class='oxd-table-body'] div[role='row'] > div:nth-child(2)")).getText());
-     	Thread.sleep(3000);
-     	driver.findElement(By.cssSelector("div[class='oxd-table-body'] div[role='row'] > div:nth-child(6) > div:nth-child(1)> *:nth-child(1)")).click();
-     	Thread.sleep(700);
-     	System.out.println(driver.findElement(By.cssSelector("p[class='oxd-text oxd-text--p oxd-text--toast-message oxd-toast-content-text']")).getText());
+//    	WebDriver driver;
+//    	driver = new ChromeDriver();
+//    	
+//    	driver.manage().window().maximize();
+//    	String url = "https://opensource-demo.orangehrmlive.com";
+//    	driver.get(url);
+//    	//System.out.println( "Hell o' World!app" );
+//    	//enter name
+//    	Thread.sleep(3000);
+//    	driver.findElement(By.cssSelector("input[name='username']")).sendKeys("Admin");
+//    	//enter password
+//    	driver.findElement(By.cssSelector("input[name='password']")).sendKeys("admin123");
+//    	Thread.sleep(3000);
+//    	//click login button
+//    	driver.findElement(By.cssSelector("button[type='submit']")).click();
+//    	Thread.sleep(3000);
+//    	//click licenses
+//    	driver.findElement(By.cssSelector("a[href='/web/index.php/admin/viewAdminModule']")).click();
+//    	Thread.sleep(3000);
+//    	driver.findElement(By.cssSelector("div[class='oxd-table-filter-area'] input[class='oxd-input oxd-input--active']")).sendKeys("admin");
+//     	Thread.sleep(3000);
+//     	driver.findElement(By.cssSelector("button[type='submit']")).click();
+//     	Thread.sleep(3000);
+//     	System.out.println(driver.findElements(By.cssSelector("div[class='oxd-table-body'] div[role='row']")).size());
+//     	Thread.sleep(3000);
+//     	System.out.println(driver.findElement(By.cssSelector("div[class='oxd-table-body'] div[role='row'] > div:nth-child(2)")).getText());
+//     	Thread.sleep(3000);
+//     	driver.findElement(By.cssSelector("div[class='oxd-table-body'] div[role='row'] > div:nth-child(6) > div:nth-child(1)> *:nth-child(1)")).click();
+//     	Thread.sleep(700);
+//     	System.out.println(driver.findElement(By.cssSelector("p[class='oxd-text oxd-text--p oxd-text--toast-message oxd-toast-content-text']")).getText());
     
     	
     	//click main data
     	//driver.findElement(By.cssSelector("a[class*='ml-sub-menu']")).click();
-    	Thread.sleep(3000);
+    	//Thread.sleep(3000);
     	//click cites
     	//driver.findElement(By.cssSelector("a[href='/cities']")).click();
     	//click countries
@@ -116,9 +116,9 @@ public class App extends BasePage{
     	//WebElement targetChild = childElement.findElement(By.xpath("parent::*/following-sibling::*[3]/*[1]"));
     	//targetChild.click();
     	
-    	
-    	Thread.sleep(3000);
-         driver.quit();
+//    	
+//    	Thread.sleep(3000);
+//         driver.quit();
 
     }
 
