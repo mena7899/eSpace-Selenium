@@ -72,7 +72,7 @@ public class APIsBaseTest {
         }
 
         writer.close();
-        System.out.println("✅ Cookies saved to: " + cookieFilePath);
+        System.out.println("Cookies saved to: " + cookieFilePath);
         
         //read the cookies from the file
         AuthCookies = new HashMap<>();
